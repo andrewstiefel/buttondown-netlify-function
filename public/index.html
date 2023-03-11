@@ -14,7 +14,7 @@
     <p>
       This is an example of a custom HTML subscription form that uses a <a target="_blank" href="https://docs.netlify.com/functions/overview/">Netlify Function</a> and the <a target="_blank" href="https://docs.buttondown.email/api-reference/introduction">Buttondown API</a> to add a subscriber to an email newsletter.
     </p>
-    <form name="newsletter" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <form name="newsletter" method="POST" action="/.netlify/functions/subscribe">
       <label class="hidden">Don’t fill this out if you’re human:</label>
       <input class="hidden" name="bot-field" />
       <label for="email">Your Email Address:</label>
