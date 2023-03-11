@@ -1,7 +1,7 @@
 # buttondown-netlify-function
-This is a demo of a simple, custom newsletter subscription form built with Netlify Functions and the Buttondown API. It includes a serverless function, a basic HTML form to collect email submissions, and a minimal landing page.
+This is a demo of a simple, custom newsletter subscription form built with Netlify Functions and the Buttondown API. It includes a serverless function, a basic HTML form, and a minimal landing page.
 
-**View this demo site:** [https://buttondown-netlify-functions-demo.netlify.app](https://buttondown-netlify-functions-demo.netlify.app)
+**View the demo site:** [https://buttondown-netlify-functions-demo.netlify.app](https://buttondown-netlify-functions-demo.netlify.app)
 
 ## Deploy to Netlify
 Deploy your own version of this example site, by clicking the Deploy to Netlify Button below. This will automatically:
