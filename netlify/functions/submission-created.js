@@ -1,4 +1,4 @@
-const { CONVERTKIT_API_KEY } = process.env;
+const { API_KEY } = process.env;
 
 import fetch from 'node-fetch';
 
@@ -9,7 +9,7 @@ exports.handler = async (event, context) => {
     const response = await fetch( 'https://api.buttondown.email/v1/subscribers', {
 		  method: 'POST',
 		  headers: {
-			  Authorization: `Token ${EMAIL_TOKEN}`,
+			  Authorization: `Token ${API_KEY}`,
 			  'Content-Type': 'application/json',
 		  },
 		  body: JSON.stringify({ email }),
@@ -18,10 +18,11 @@ exports.handler = async (event, context) => {
 
     let responseText = await response.text();
     console.log('response:', responseText);
+    
     return {
         statusCode: 301,
         headers: {
-            'Location': '/confirmation-page/',
+            'Location': '/success/',
         },
     }
 }
