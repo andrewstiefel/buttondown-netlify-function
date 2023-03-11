@@ -17,7 +17,7 @@ exports.handler = async (event, context) => {
     );
 
     let responseText = await response.text();
-    console.log('response:', responseText);
+    console.log('Response:', responseText);
     
     return {
         statusCode: 301,
