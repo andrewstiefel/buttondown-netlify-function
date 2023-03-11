@@ -1,0 +1,7 @@
+{
+  "name": "buttondown-netlify-function",
+  "version": "1.0.0",
+  "description": "A site to show a demo using Netlify Functions and Buttondown",
+  "author": "Andrew Stiefel",
+  "license": "MIT"
+}

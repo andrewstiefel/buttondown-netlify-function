@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netlify example: Serverless functions</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1></h1>
+    <p>
+
+    </p>
+    <form name="newsletter" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+      <label class="hidden" for="bot-field" aria-hidden="true">Why are you filling out this field?</label>
+      <input class="hidden" name="bot-field" aria-hidden="true"/>
+      <label for="email">Email Address</label>
+      <input type="email" name="email" placeholder="Type Your Email Address"/>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</body>
+
+</html>
