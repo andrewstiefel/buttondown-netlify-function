@@ -20,9 +20,9 @@ exports.handler = async (event, context) => {
     console.log('Response:', responseText);
     
     return {
-        statusCode: 301,
-        headers: {
-            'Location': '/success/',
-        },
+      statusCode: 301,
+      headers: {
+          'Location': '/success/',
+      },
     }
 }
