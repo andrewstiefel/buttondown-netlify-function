@@ -1,7 +1,10 @@
 {
   "name": "buttondown-netlify-function",
   "version": "1.0.0",
-  "description": "A site to show a demo using Netlify Functions and Buttondown",
+  "description": "A demo site showing how to use Netlify Functions and the Buttondown API",
   "author": "Andrew Stiefel",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
