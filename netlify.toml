@@ -1,6 +1,6 @@
 [build]
     publish = "public"
-    command = "npm run build"
+    command = "echo No build command"
     node_bundler = "esbuild"
 
 [dev]
