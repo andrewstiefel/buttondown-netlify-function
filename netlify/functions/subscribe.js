@@ -20,9 +20,7 @@ exports.handler = async (event, context) => {
     console.log('Response:', responseText);
     
     return {
-      statusCode: 302,
-      headers: {
-          'Location': 'https://buttondown-netlify-functions-demo.netlify.app/success/',
-      },
+      statusCode: 200,
+      body: JSON.stringify({})
     }
 }
