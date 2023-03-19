@@ -30,5 +30,8 @@ npm install -g netlify-cli
 netlify dev
 ```
 
+## Create an environment variable
+You must create and add your [Buttondown API key](https://buttondown.email/settings) as an [environment variable](https://docs.netlify.com/environment-variables/overview/) for your Netlify site before the serverless function will work.
+
 ## License
 [MIT License](/LICENSE)
